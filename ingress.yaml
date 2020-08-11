@@ -9,12 +9,12 @@ metadata:
 spec:
   tls:
   - hosts:
-    - docker.talam.io
+    - docker.stage.auroville.org
     secretName: docker-registry-prod-tls
   rules:
-  - host: docker.talam.io
+  - host: docker.stage.auroville.org
     http:
       paths:
       - backend:
           serviceName: docker-registry-service
-          servicePort: 5000 
+          servicePort: 5000

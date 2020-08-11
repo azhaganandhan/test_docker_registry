@@ -24,7 +24,7 @@ spec:
           name: docker-registry
         volumeMounts:
         - name: docker-registry
-          mountPath: /var/lib/registry
+          mountPath: /var/snap/microk8s/common/default-storage/registry
   volumeClaimTemplates:
   - metadata:
       name: docker-registry
