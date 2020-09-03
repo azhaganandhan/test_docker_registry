@@ -9,10 +9,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - docker.stage.auroville.org
+    - docker.stage.auroville.org.in
     secretName: docker-registry-prod-tls
   rules:
-  - host: docker.stage.auroville.org
+  - host: docker.stage.auroville.org.in
     http:
       paths:
       - backend:
